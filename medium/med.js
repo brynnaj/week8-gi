@@ -1,4 +1,4 @@
-function calculateSlicesOfPizza(x, y) {
+function sharePizza(x, y) {
   // Calculate the number of slices each person would get
   let slicesPerPerson = x / y;
 
@@ -9,5 +9,8 @@ function calculateSlicesOfPizza(x, y) {
   return `Each person gets ${slicesPerPerson} slices of pizza from our ${x}-slice pizza.`;
 }
 
-// Example usage
-console.log(calculateSlicesOfPizza(8, 2));
+
+console.log(sharePizza(8, 2));
+console.log(sharePizza(8, 3)); 
+console.log(sharePizza(21, 20));
+console.log(sharePizza(10, 3)); 
